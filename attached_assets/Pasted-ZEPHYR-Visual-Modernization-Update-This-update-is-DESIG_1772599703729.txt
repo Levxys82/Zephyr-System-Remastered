@@ -1,0 +1,107 @@
+ZEPHYR Visual Modernization Update
+
+This update is DESIGN ONLY.
+Do NOT add new APIs.
+Do NOT refactor backend logic.
+Do NOT modify filtering architecture.
+Do NOT change data sources.
+
+Only improve UI / UX and visual structure.
+
+1) Modern Design Overhaul
+
+- Remove all sharp corners.
+- Use rounded UI everywhere (cards, buttons, panels, inputs).
+- Improve color harmony.
+- Clean spacing and better visual hierarchy.
+- Performance-first.
+- No heavy JS frameworks.
+- Use subtle CSS animations only.
+
+2) Dark Mode & Settings
+
+- Add a Settings page.
+- Add Dark Mode.
+- Dark mode must use dark gray (not pure black).
+- Smooth transition animation between themes.
+
+3) Header Changes
+
+- Change “ZEPHYR.EGINE” to “ZEPHYR”.
+- Remove “STATUS: OPERATIONAL”.
+
+4) Project List Adjustments
+
+- Remove category label from project list.
+- Remove download count from list view.
+- Make cards more modern and dynamic.
+
+5) Project Detail Page Improvements
+
+Replace old download-focused layout with tab system:
+
+Tabs:
+- Description
+- Gallery
+- Changelog
+- Versions
+
+Gallery behavior:
+- Click image → fullscreen modal
+- Background dimmed
+- Smooth animation
+
+Inside project page show:
+
+- Creators
+- Tags
+- Links
+- Details
+- Compatibility
+
+Compatibility must display:
+- Minecraft Versions
+- Platforms
+- Supported Environments
+
+6) Source Badge System
+
+Under each project, clearly show the source platform using colored badge:
+
+Modrinth → green badge
+CurseForge → orange badge
+PlanetMinecraft → blue badge
+BuiltByBit → dark badge
+NovaSkin → purple badge
+
+Each badge must visually match the brand color.
+Include platform logo and name inside badge.
+
+7) Icons & Symbols
+
+Add visual icons:
+
+- Fabric → Fabric logo
+- Downloads → download icon
+- Likes → heart icon
+
+Show inside project page:
+- Download count (with icon)
+- Like count (with icon)
+- Tags
+
+Remove visible project ID from download section.
+
+8) Description Cleanup
+
+- Remove raw visible links.
+- Render descriptions cleanly.
+
+9) Language Structure
+
+- Interface must be fully English.
+- Do not use Turkish characters.
+- Code must support future multi-language system.
+
+This is a visual upgrade only.
+No backend structural changes.
